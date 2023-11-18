@@ -6,12 +6,12 @@ manifest:
     west-commands: scripts/west-commands.yml
 
   remotes:
-    - name: ncs
-      url-base: https://github.com/nrfconnect
+    - name: zephyr
+      url-base: https://github.com/zephyrproject-rtos
 
   projects:
-    - name: nrf
-      remote: ncs
-      repo-path: sdk-nrf
+    - name: zephyr
+      remote: zephyr
+      repo-path: zephyr
       revision: main
       import: true
